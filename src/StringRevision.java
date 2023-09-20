@@ -32,7 +32,13 @@ public class StringRevision {
         int ctr = branch.codePointCount(1 , 10);
         System.out.println("Codepoint count " + " = " + ctr);
 
-
+     //java programme to concatenate a given string to the another string
+        String one = "Practice more and more and ";
+        String two = "You get the success";
+        String actual = one.concat(two);
+        System.out.println("String 1 " + " = " + one);
+        System.out.println("String 2 " + " = " + two);
+        System.out.println("The concatenated string: " + actual);
 
 
 
